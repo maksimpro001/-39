@@ -7,7 +7,7 @@ function P_S(x, y) {
   alert("Площа: " + S);
 }
 
-P_S(10, 7);
+P_S();
 
 a = prompt("Enter number: ");
 alert((a + 10) * 20 - 30 / 5);
