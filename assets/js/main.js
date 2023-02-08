@@ -1,6 +1,6 @@
 function P_S(x, y) {
-  x = prompt("Enter number 1: ");
-  y = prompt("Enter number 2: ");
+  x = Number(prompt("Enter number 1: "));
+  y = Number(prompt("Enter number 2: "));
   P = (x + y) * 2;
   S = x * y;
   alert("Периметер: " + P);
